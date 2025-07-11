@@ -263,9 +263,7 @@ body{
     margin-bottom: 40px; /* Space between button and image */
     width: 200px;
 }
-.cta-button:hover {
-    background-color: #423dcc;
-}
+
 
 .cta-image {
     width: 100%; /* Make image responsive */
@@ -354,16 +352,16 @@ form textarea {
 
 
 .site-footer {
-    /* এই ক্লাসটি এখন শুধু পুরো প্রস্থের ব্যাকগ্রাউন্ডের জন্য */
+   
     background-color: #F8F9FF;
     border-top: 1px solid #E0E0E0;
-    padding: 60px 40px; /* উপরে-নিচে প্যাডিং */
+    padding: 60px 40px; 
 }
 
 .footer-content {
-    /* এই ক্লাসটি ভেতরের কন্টেন্টকে মাঝখানে সীমাবদ্ধ রাখবে */
+   
     max-width: 800px;
-    margin: 0 auto; /* কন্টেন্টকে মাঝখানে আনার জন্য */
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -416,15 +414,20 @@ form textarea {
 .preview-button:hover {
     background-color: #e35e11;}
 
+
 /* Submit Button Hover */
 .submit-button:hover {
     background-color: #e35e11; 
+}
+.cta-button:hover {
+   background-color: #e35e11; 
 }
 
 /* Footer Navigation Link Hover */
 .footer-nav a:hover {
     color: #ff8747;
 }
+
 
 .container{
   display: flex;
