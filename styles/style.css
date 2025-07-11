@@ -283,6 +283,7 @@ body{
 }
 .contact-heading-container {
     flex: 1; /* বাম পাশের কলাম */
+
 }
 
 .contact-form-container {
@@ -316,6 +317,7 @@ form textarea {
     font-size: 16px;
     box-sizing: border-box; 
     transition: border-color 0.3s ease; 
+      font-family: inherit;
 }
 
 
@@ -347,3 +349,79 @@ form textarea {
 .submit-button:hover {
     background-color: #423dcc;
 }
+ /* Footer Styles */
+
+
+.site-footer {
+    /* এই ক্লাসটি এখন শুধু পুরো প্রস্থের ব্যাকগ্রাউন্ডের জন্য */
+    background-color: #F8F9FF;
+    border-top: 1px solid #E0E0E0;
+    padding: 60px 40px; /* উপরে-নিচে প্যাডিং */
+}
+
+.footer-content {
+    /* এই ক্লাসটি ভেতরের কন্টেন্টকে মাঝখানে সীমাবদ্ধ রাখবে */
+    max-width: 800px;
+    margin: 0 auto; /* কন্টেন্টকে মাঝখানে আনার জন্য */
+    text-align: center;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: #5A5A5A;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #5A5A5A;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #4E47FF;
+}
+ /* All Hover Styles */
+ 
+ /* Signup Button Hover */
+.signup-button:hover {
+     background-color: #e35e11;}
+
+/* Hero Button Hover */
+.hero-button:hover {
+    background-color: #e35e11; 
+}
+
+/* Preview Button Hover */
+.preview-button:hover {
+    background-color: #e35e11;}
+
+/* Submit Button Hover */
+.submit-button:hover {
+    background-color: #e35e11; 
+}
+
+/* Footer Navigation Link Hover */
+.footer-nav a:hover {
+    color: #ff8747;
+}
+
