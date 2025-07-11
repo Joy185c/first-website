@@ -117,3 +117,40 @@ body{
   border-radius: 24px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
+/* Stats Section Styles */
+.stats-section {
+    background-color: #F0F1F8; 
+    border-radius: 24px;
+    padding: 60px 40px;
+    text-align: center;
+    max-width: 900px;
+    margin: 100px auto;
+}
+.stats-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #252432;
+    margin-top: 0;
+    margin-bottom: 50px; 
+}
+.stats-container {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.stat-item {
+    flex: 1;
+}
+.stat-number {
+    font-family: sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0;
+}
+.stat-label {
+    font-size: 16px;
+    color: #5A5A5A;
+    margin-top: 8px; 
+}
