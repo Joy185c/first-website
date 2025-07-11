@@ -1,0 +1,27 @@
+.navbar{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+.logo{
+    font-family: sans-serif;
+    font-size: 28px;
+    color: #5855D6; 
+    font-weight: bold;
+}
+.signup-button{
+    font-family: sans-serif;
+    font-size: 16px;
+     background-color: #5855D6;
+     color: white;
+     font-weight: bold;
+      padding: 12px 24px;
+      border-radius: 8px;
+       border: none;
+       cursor: pointer;
+        
+}
+.signup-button:hover{
+  background-color: #62d2c3;
+}
