@@ -272,3 +272,78 @@ body{
     border-radius: 24px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
+/* Contact Section Styles */
+.contact-section {
+    display: flex;
+    align-items: center;
+    gap: 80px; 
+    padding: 100px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.contact-heading-container {
+    flex: 1; /* বাম পাশের কলাম */
+}
+
+.contact-form-container {
+    flex: 1; /* ডান পাশের কলাম */
+}
+
+.contact-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #252432;
+    line-height: 1.2;
+}
+
+/* Form Styles */
+form label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5A5A5A;
+    margin-bottom: 8px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #E0E0E0; 
+    border-radius: 8px;
+    margin-bottom: 24px; 
+    font-size: 16px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease; 
+}
+
+
+form input:focus,
+form textarea:focus {
+    outline: none; 
+    border-color: #4E47FF; 
+}
+
+form textarea {
+    height: 120px;
+    resize: vertical; 
+}
+
+.submit-button {
+    width: 100%;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #423dcc;
+}
