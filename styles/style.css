@@ -400,10 +400,22 @@ form textarea {
     color: #4E47FF;
 }
  /* All Hover Styles */
- 
- /* Signup Button Hover */
+
+
+/* Lift effect for all buttons */
+.signup-button:hover,
+.hero-button:hover,
+.preview-button:hover,
+.submit-button:hover,
+.cta-button:hover {
+    transform: scale(1.1);
+    background-position: right center;
+}
+
+/* Signup Button Hover */
 .signup-button:hover {
-     background-color: #e35e11;}
+    background-color: #e35e11;
+}
 
 /* Hero Button Hover */
 .hero-button:hover {
@@ -412,15 +424,17 @@ form textarea {
 
 /* Preview Button Hover */
 .preview-button:hover {
-    background-color: #e35e11;}
-
+    background-color: #e35e11;
+}
 
 /* Submit Button Hover */
 .submit-button:hover {
     background-color: #e35e11; 
 }
+
+/* CTA Button Hover */
 .cta-button:hover {
-   background-color: #e35e11; 
+    background-color: #e35e11; 
 }
 
 /* Footer Navigation Link Hover */
