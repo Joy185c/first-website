@@ -154,3 +154,75 @@ body{
     color: #5A5A5A;
     margin-top: 8px; 
 }
+/* Testimonial Section Styles */
+.testimonial-section {
+    padding: 100px 20px;
+}
+.testimonial-main-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.testimonial-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.testimonial-card {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    flex: 1; /* Each card takes equal space */
+}
+
+.stars {
+    margin-bottom: 20px;
+}
+
+.stars img {
+    width: 20px; /* Adjust size as needed */
+    margin-right: 4px;
+}
+.card-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #252432;
+    margin: 0 0 12px 0;
+}
+.card-text {
+    font-size: 16px;
+    color: #5A5A5A;
+    line-height: 1.5;
+    margin: 0 0 24px 0;
+}
+.reviewer-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}.reviewer-photo {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%; /* Makes the image perfectly round */
+}.reviewer-details {
+    line-height: 1.4;
+}
+
+.reviewer-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #252432;
+    margin: 0;
+}
+
+.reviewer-date {
+    font-size: 14px;
+    color: #5A5A5A;
+    margin: 0;
+}
