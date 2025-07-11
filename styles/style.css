@@ -261,6 +261,7 @@ body{
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-bottom: 40px; /* Space between button and image */
+    width: 200px;
 }
 .cta-button:hover {
     background-color: #423dcc;
@@ -425,3 +426,9 @@ form textarea {
     color: #ff8747;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
